@@ -9,7 +9,9 @@ export default function HomePage() {
   return (
     <div className="pt-5 flex flex-col">
       <div className='flex flex-row' style={{marginLeft: '15%', marginRight: '15%'}}>
-        <img className='border rounded-full p-2 bg-white w-1/4' src='https://sun9-9.userapi.com/impg/8Kf-aQz119g1V3HV02pXMwQ6knHEzspfWBvyWg/hoS4ZOlaZHE.jpg?size=2560x2372&quality=95&sign=198972ea37fde00e26118e1799ca002e&type=album' alt='Nox Auri'></img>
+        <div className='w-[100%]'>
+          <img className='border rounded-full p-2 bg-white' src='https://sun9-9.userapi.com/impg/8Kf-aQz119g1V3HV02pXMwQ6knHEzspfWBvyWg/hoS4ZOlaZHE.jpg?size=2560x2372&quality=95&sign=198972ea37fde00e26118e1799ca002e&type=album' alt='Nox Auri'></img>
+        </div>
         <div className='border rounded-lg py-2 px-4 flex flex-col m-4 bg-white'>
           <h1 className='font-bold text-xl text-blue-400 text-center'>Welcome, wandering soul!</h1>
           <p className='mb-2'>My name is <span className='font-bold text-blue-400'>Nox Auri</span> and this is my little cozy corner of the Internet where i keep my Worlds, OCs and some designs up for sale!</p>

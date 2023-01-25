@@ -16,11 +16,11 @@ export default function Footer() {
             </div>
             <div className='m-2'> 
               <FontAwesomeIcon icon={faTwitter} />
-              <a href='https://vk.com/nox_auri' className='m-2'>auri_nox</a>
+              <a href='ttps://twitter.com/auri_nox' className='m-2'>auri_nox</a>
             </div>
             <div className='m-2'>
               <FontAwesomeIcon icon={faDeviantart} />
-              <a href='https://vk.com/nox_auri' className='m-2'>noxauri</a>
+              <a href='https://www.deviantart.com/noxauri' className='m-2'>noxauri</a>
             </div>
           </div>
           <div className='flex flex-col text-right'>
